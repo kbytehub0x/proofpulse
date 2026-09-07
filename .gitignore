@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+
+# Next.js Build Output
+.next/
+out/
+build/
+dist/
+
+# SQLite Database & Write-Ahead Logs (CRITICAL: Do not commit test DBs)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Debug & Execution Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
